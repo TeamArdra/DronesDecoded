@@ -18,7 +18,7 @@ export default function Footer() {
 
   return (
     <footer
-      id="footer"
+      id="contact"
       className="relative pt-24 sm:pt-28 lg:pt-32 pb-12 px-6 lg:px-20 border-t border-white/10"
     >
       <div className="max-w-7xl mx-auto">

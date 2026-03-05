@@ -71,13 +71,20 @@ export default function ProblemStatements() {
 
               <p className="text-gray-300 text-[18px] leading-[1.85] tracking-[0.01em] mb-8">
 
-                Design an innovative drone-based solution capable of
-                monitoring environmental conditions and collecting
-                valuable data for sustainability initiatives.
+                 Environmental degradation across forests, agricultural regions,
+                 and water bodies is accelerating due to deforestation, pollution,
+                 crop stress, and biodiversity loss.
 
-                Solutions may focus on pollution monitoring, wildlife
-                tracking, ecosystem health analysis, or disaster
-                assessment using autonomous aerial systems.
+                 Traditional monitoring methods rely on manual inspections or
+                 satellite imagery which are often expensive, slow, and limited
+                 in resolution. Drone technology enables continuous aerial
+                 monitoring capable of collecting high-resolution environmental
+                 data and detecting ecological threats much earlier.
+
+                 In this challenge, participants must design an intelligent
+                 drone-based monitoring system that can survey large geographic
+                 areas and convert aerial data into actionable environmental
+                 insights.
 
               </p>
 
@@ -116,18 +123,20 @@ export default function ProblemStatements() {
             <div>
 
               <h3 className="text-3xl font-semibold text-blue-400 mb-6">
-                Drone Solutions for Sustainable Cities
+                Drone-Based Anti-Poaching Surveillance System
               </h3>
 
               <p className="text-gray-300 text-[18px] leading-[1.85] tracking-[0.01em] mb-8">
 
-                Develop a concept demonstrating how drone technology
-                can improve urban sustainability through intelligent
-                monitoring and aerial automation.
+                Illegal wildlife poaching remains one of the most critical threats to
+                biodiversity across protected forest reserves. Traditional ground
+                patrols struggle to monitor vast territories and respond quickly to
+                suspicious activities occurring in remote areas.
 
-                Ideas may focus on smart infrastructure monitoring,
-                resource optimization, traffic intelligence,
-                or emergency response systems within modern cities.
+                In this challenge, participants must design a scalable drone-based
+                surveillance ecosystem capable of monitoring large forest regions,
+                detecting suspicious human activity, and enabling rapid response
+                from forest patrol teams using intelligent aerial monitoring.
 
               </p>
 
@@ -136,7 +145,7 @@ export default function ProblemStatements() {
               </p>
 
               <p className="text-white font-medium mt-1">
-                Smart Cities & Urban Sustainability
+                 Wildlife Protection & Anti-Poaching Surveillance
               </p>
 
             </div>

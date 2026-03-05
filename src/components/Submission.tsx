@@ -155,7 +155,7 @@ export default function Submission() {
               <div className="p-6 bg-white rounded-xl shadow-xl">
 
                 <Image
-                  src="/dummy-qr.png"
+                  src="/qr-submissions.png"
                   alt="Submission QR"
                   width={240}
                   height={240}
@@ -169,7 +169,7 @@ export default function Submission() {
             {/* CTA */}
 
             <a
-              href="#"
+              href="https://forms.gle/MCgigCrWtpTkm5Kj6"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-blue-500 text-white font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(59,130,246,0.6)] transition-all duration-300"
             >
               Open Submission Folder

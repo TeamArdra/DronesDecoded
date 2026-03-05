@@ -75,7 +75,7 @@ export default function Registration() {
               <div className="p-6 rounded-xl bg-white shadow-xl">
 
                 <Image
-                  src="/dummy-qr.png"
+                  src="/qr-registrations.png"
                   alt="Registration QR"
                   width={240}
                   height={240}
@@ -89,7 +89,7 @@ export default function Registration() {
             {/* CTA */}
 
             <a
-              href="#"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdGhK840jlRRuoSSHn8XW64RNu_NevHMQ-KW70pz5ngCvcGtA/viewform"
               className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-cyan-400 text-black font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(0,255,255,0.6)] transition-all duration-300"
             >
               Open Registration Form

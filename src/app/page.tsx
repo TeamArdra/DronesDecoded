@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import AboutEvent from "@/components/AboutEvent";
 import ProblemStatements from "@/components/ProblemStatements";
@@ -8,7 +7,7 @@ import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="relative pt-24">
+    <main className="relative w-full overflow-x-hidden pt-24">
 
       <Hero />
 

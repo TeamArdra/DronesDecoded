@@ -17,7 +17,7 @@ export default function ProblemStatements() {
   return (
     <section
       id="problem_statements"
-      className="relative py-36 px-6 lg:px-20"
+      className="relative py-24 sm:py-28 lg:py-36 px-6 lg:px-20"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -28,9 +28,9 @@ export default function ProblemStatements() {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="text-center mb-28"
+          className="text-center mb-20 sm:mb-24 lg:mb-28"
         >
-          <h2 className="text-[56px] md:text-[70px] font-bold tracking-[0.15em]">
+          <h2 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[70px] font-bold tracking-[0.12em] lg:tracking-[0.15em]">
 
             PROBLEM
 
@@ -40,7 +40,7 @@ export default function ProblemStatements() {
 
           </h2>
 
-          <p className="text-gray-400 mt-8 text-xl max-w-2xl mx-auto">
+          <p className="text-gray-400 mt-6 sm:mt-8 text-[16px] sm:text-[18px] lg:text-xl max-w-2xl mx-auto leading-relaxed">
             Explore the sustainability challenges participants will
             solve using drone technology and innovative thinking.
           </p>
@@ -50,7 +50,7 @@ export default function ProblemStatements() {
 
         {/* CARDS GRID */}
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-8 sm:gap-10 lg:gap-12">
 
 
           {/* PROBLEM 1 */}
@@ -60,16 +60,16 @@ export default function ProblemStatements() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="group p-12 rounded-2xl bg-white/[0.04] backdrop-blur-2xl border border-white/10 hover:border-cyan-400/40 hover:shadow-[0_0_40px_rgba(0,255,255,0.18)] transition-all duration-500 flex flex-col justify-between"
+            className="group p-8 sm:p-10 lg:p-12 rounded-2xl bg-white/[0.04] backdrop-blur-2xl border border-white/10 hover:border-cyan-400/40 hover:shadow-[0_0_40px_rgba(0,255,255,0.18)] transition-all duration-500 flex flex-col justify-between"
           >
 
             <div>
 
-              <h3 className="text-3xl font-semibold text-cyan-400 mb-6">
+              <h3 className="text-[22px] sm:text-[26px] lg:text-3xl font-semibold text-cyan-400 mb-5 sm:mb-6">
                 Environmental Monitoring with Drones
               </h3>
 
-              <p className="text-gray-300 text-[18px] leading-[1.85] tracking-[0.01em] mb-8">
+              <p className="text-gray-300 text-[16px] sm:text-[17px] lg:text-[18px] leading-[1.85] tracking-[0.01em] mb-7 sm:mb-8">
 
                  Environmental degradation across forests, agricultural regions,
                  and water bodies is accelerating due to deforestation, pollution,
@@ -88,11 +88,11 @@ export default function ProblemStatements() {
 
               </p>
 
-              <p className="text-gray-500 text-sm tracking-[0.15em] uppercase">
+              <p className="text-gray-500 text-[11px] sm:text-sm tracking-[0.15em] uppercase">
                 Focus Area
               </p>
 
-              <p className="text-white font-medium mt-1">
+              <p className="text-white font-medium mt-1 text-[15px] sm:text-base">
                 Environmental Intelligence & Monitoring
               </p>
 
@@ -101,7 +101,7 @@ export default function ProblemStatements() {
             <a
               href="https://drone-environmental-monitoring-problem-statement.tiiny.site"
               target="_blank"
-              className="mt-10 inline-flex items-center gap-3 px-7 py-3 rounded-xl bg-cyan-400 text-black font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(0,255,255,0.5)] transition-all duration-300"
+              className="mt-8 sm:mt-10 inline-flex items-center gap-3 px-6 sm:px-7 py-3 rounded-xl bg-cyan-400 text-black font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(0,255,255,0.5)] transition-all duration-300"
             >
               View Full Problem
               <ArrowUpRight size={18} />
@@ -117,16 +117,16 @@ export default function ProblemStatements() {
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true }}
-            className="group p-12 rounded-2xl bg-white/[0.04] backdrop-blur-2xl border border-white/10 hover:border-blue-400/40 hover:shadow-[0_0_40px_rgba(59,130,246,0.18)] transition-all duration-500 flex flex-col justify-between"
+            className="group p-8 sm:p-10 lg:p-12 rounded-2xl bg-white/[0.04] backdrop-blur-2xl border border-white/10 hover:border-blue-400/40 hover:shadow-[0_0_40px_rgba(59,130,246,0.18)] transition-all duration-500 flex flex-col justify-between"
           >
 
             <div>
 
-              <h3 className="text-3xl font-semibold text-blue-400 mb-6">
+              <h3 className="text-[22px] sm:text-[26px] lg:text-3xl font-semibold text-blue-400 mb-5 sm:mb-6">
                 Drone-Based Anti-Poaching Surveillance System
               </h3>
 
-              <p className="text-gray-300 text-[18px] leading-[1.85] tracking-[0.01em] mb-8">
+              <p className="text-gray-300 text-[16px] sm:text-[17px] lg:text-[18px] leading-[1.85] tracking-[0.01em] mb-7 sm:mb-8">
 
                 Illegal wildlife poaching remains one of the most critical threats to
                 biodiversity across protected forest reserves. Traditional ground
@@ -140,11 +140,11 @@ export default function ProblemStatements() {
 
               </p>
 
-              <p className="text-gray-500 text-sm tracking-[0.15em] uppercase">
+              <p className="text-gray-500 text-[11px] sm:text-sm tracking-[0.15em] uppercase">
                 Focus Area
               </p>
 
-              <p className="text-white font-medium mt-1">
+              <p className="text-white font-medium mt-1 text-[15px] sm:text-base">
                  Wildlife Protection & Anti-Poaching Surveillance
               </p>
 
@@ -153,7 +153,7 @@ export default function ProblemStatements() {
             <a
               href="https://docs.google.com/document/d/1pYFiW51w93wlhZJzv7AQbM8ex9zp5pZtKOLmwRrPzWE/edit"
               target="_blank"
-              className="mt-10 inline-flex items-center gap-3 px-7 py-3 rounded-xl bg-blue-500 text-white font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] transition-all duration-300"
+              className="mt-8 sm:mt-10 inline-flex items-center gap-3 px-6 sm:px-7 py-3 rounded-xl bg-blue-500 text-white font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(59,130,246,0.5)] transition-all duration-300"
             >
               View Full Problem
               <ArrowUpRight size={18} />

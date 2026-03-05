@@ -18,7 +18,7 @@ export default function Registration() {
   return (
     <section
       id="registrations"
-      className="relative py-36 px-6 lg:px-20"
+      className="relative py-24 sm:py-28 lg:py-36 px-6 lg:px-20"
     >
       <div className="max-w-6xl mx-auto">
 
@@ -29,9 +29,9 @@ export default function Registration() {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="text-center mb-24"
+          className="text-center mb-20 sm:mb-22 lg:mb-24"
         >
-          <h2 className="text-[56px] md:text-[70px] font-bold tracking-[0.15em]">
+          <h2 className="text-[40px] sm:text-[48px] md:text-[56px] lg:text-[70px] font-bold tracking-[0.12em] lg:tracking-[0.15em]">
 
             EVENT
 
@@ -41,7 +41,7 @@ export default function Registration() {
 
           </h2>
 
-          <p className="text-gray-400 mt-8 text-xl max-w-2xl mx-auto">
+          <p className="text-gray-400 mt-6 sm:mt-8 text-[16px] sm:text-[18px] lg:text-xl max-w-2xl mx-auto leading-relaxed">
             Secure your spot in the Drones Decoded ideathon and start
             building the future of drone-powered sustainability.
           </p>
@@ -58,27 +58,28 @@ export default function Registration() {
           className="relative mx-auto max-w-xl"
         >
 
-          <div className="relative p-14 rounded-3xl bg-white/[0.04] backdrop-blur-2xl border border-white/10 text-center hover:border-cyan-400/40 transition-all duration-500 hover:shadow-[0_0_50px_rgba(0,255,255,0.18)]">
+          <div className="relative p-8 sm:p-10 lg:p-14 rounded-3xl bg-white/[0.04] backdrop-blur-2xl border border-white/10 text-center hover:border-cyan-400/40 transition-all duration-500 hover:shadow-[0_0_50px_rgba(0,255,255,0.18)]">
 
             {/* glow background */}
             <div className="absolute inset-0 rounded-3xl bg-cyan-500/5 blur-2xl opacity-30 pointer-events-none" />
 
-            <h3 className="text-2xl font-semibold text-cyan-400 mb-10">
+            <h3 className="text-[20px] sm:text-[22px] lg:text-2xl font-semibold text-cyan-400 mb-8 sm:mb-10">
               Scan to Register
             </h3>
 
 
             {/* QR */}
 
-            <div className="flex justify-center mb-10">
+            <div className="flex justify-center mb-8 sm:mb-10">
 
-              <div className="p-6 rounded-xl bg-white shadow-xl">
+              <div className="p-4 sm:p-5 lg:p-6 rounded-xl bg-white shadow-xl">
 
                 <Image
                   src="/qr-registrations.png"
                   alt="Registration QR"
-                  width={240}
-                  height={240}
+                  width={200}
+                  height={200}
+                  className="sm:w-[220px] lg:w-[240px] h-auto"
                 />
 
               </div>
@@ -90,7 +91,7 @@ export default function Registration() {
 
             <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSdGhK840jlRRuoSSHn8XW64RNu_NevHMQ-KW70pz5ngCvcGtA/viewform"
-              className="inline-flex items-center gap-3 px-8 py-4 rounded-xl bg-cyan-400 text-black font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(0,255,255,0.6)] transition-all duration-300"
+              className="inline-flex items-center gap-3 px-6 sm:px-7 lg:px-8 py-3 sm:py-3.5 lg:py-4 rounded-xl bg-cyan-400 text-black font-semibold hover:scale-105 hover:shadow-[0_0_25px_rgba(0,255,255,0.6)] transition-all duration-300 text-sm sm:text-base"
             >
               Open Registration Form
               <ArrowUpRight size={18} />

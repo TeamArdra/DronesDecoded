@@ -18,8 +18,8 @@ export default function Footer() {
 
   return (
     <footer
-      id="contact"
-      className="relative pt-32 pb-12 px-6 lg:px-20 border-t border-white/10"
+      id="footer"
+      className="relative pt-24 sm:pt-28 lg:pt-32 pb-12 px-6 lg:px-20 border-t border-white/10"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -30,29 +30,30 @@ export default function Footer() {
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeUp}
-          className="grid md:grid-cols-3 gap-16"
+          className="grid md:grid-cols-3 gap-12 sm:gap-14 lg:gap-16"
         >
 
           {/* LOGO + DESCRIPTION */}
 
-          <div>
+          <div className="text-center md:text-left">
 
-            <div className="flex items-center gap-5 mb-6">
+            <div className="flex items-center justify-center md:justify-start gap-4 sm:gap-5 mb-5 sm:mb-6">
 
               <Image
                 src={logo}
                 alt="Team Ardra"
-                width={70}
-                height={70}
+                width={60}
+                height={60}
+                className="sm:w-[65px] lg:w-[70px] h-auto"
               />
 
-              <h3 className="text-2xl font-bold tracking-wide">
+              <h3 className="text-xl sm:text-2xl font-bold tracking-wide">
                 Team Ardra
               </h3>
 
             </div>
 
-            <p className="text-gray-400 text-[17px] leading-[1.8] max-w-sm">
+            <p className="text-gray-400 text-[15px] sm:text-[16px] lg:text-[17px] leading-[1.8] max-w-sm mx-auto md:mx-0">
 
               Team Ardra is a student innovation group at VIT dedicated
               to advancing UAV technology, autonomous systems, and
@@ -66,13 +67,13 @@ export default function Footer() {
 
           {/* NAVIGATION */}
 
-          <div>
+          <div className="text-center md:text-left">
 
-            <h4 className="text-lg font-semibold mb-6 text-cyan-400 tracking-wide">
+            <h4 className="text-base sm:text-lg font-semibold mb-5 sm:mb-6 text-cyan-400 tracking-wide">
               Navigation
             </h4>
 
-            <ul className="space-y-4 text-gray-400 text-[16px]">
+            <ul className="space-y-3 sm:space-y-4 text-gray-400 text-[15px] sm:text-[16px]">
 
               <li>
                 <a href="#home" className="hover:text-white transition">
@@ -87,19 +88,19 @@ export default function Footer() {
               </li>
 
               <li>
-                <a href="#problems" className="hover:text-white transition">
+                <a href="#problem_statements" className="hover:text-white transition">
                   Problem Statements
                 </a>
               </li>
 
               <li>
-                <a href="#registration" className="hover:text-white transition">
+                <a href="#registrations" className="hover:text-white transition">
                   Registrations
                 </a>
               </li>
 
               <li>
-                <a href="#submission" className="hover:text-white transition">
+                <a href="#submissions" className="hover:text-white transition">
                   Submissions
                 </a>
               </li>
@@ -111,13 +112,13 @@ export default function Footer() {
 
           {/* SOCIALS */}
 
-          <div>
+          <div className="text-center md:text-left">
 
-            <h4 className="text-lg font-semibold mb-6 text-blue-400 tracking-wide">
+            <h4 className="text-base sm:text-lg font-semibold mb-5 sm:mb-6 text-blue-400 tracking-wide">
               Connect With Us
             </h4>
 
-            <p className="text-gray-400 mb-8 text-[16px] leading-relaxed max-w-xs">
+            <p className="text-gray-400 mb-6 sm:mb-8 text-[15px] sm:text-[16px] leading-relaxed max-w-xs mx-auto md:mx-0">
               Follow Team Ardra for updates on drone innovation,
               aerospace research, and upcoming technical events.
             </p>
@@ -125,17 +126,17 @@ export default function Footer() {
 
             {/* ICONS */}
 
-            <div className="flex gap-5">
+            <div className="flex justify-center md:justify-start gap-4 sm:gap-5">
 
               <a
-                href="#"
+                href="https://www.instagram.com/teamardra?igsh=MTdvdmt0dXdqNjA0Ng=="
                 className="p-3 bg-white/[0.04] backdrop-blur border border-white/10 rounded-xl hover:border-cyan-400 hover:shadow-[0_0_25px_rgba(0,255,255,0.35)] transition"
               >
                 <Instagram size={20} />
               </a>
 
               <a
-                href="#"
+                href="https://www.linkedin.com/company/team-ardra/posts/?feedView=all"
                 className="p-3 bg-white/[0.04] backdrop-blur border border-white/10 rounded-xl hover:border-blue-400 hover:shadow-[0_0_25px_rgba(59,130,246,0.35)] transition"
               >
                 <Linkedin size={20} />
@@ -150,12 +151,12 @@ export default function Footer() {
 
         {/* DIVIDER */}
 
-        <div className="mt-20 border-t border-white/10" />
+        <div className="mt-16 sm:mt-18 lg:mt-20 border-t border-white/10" />
 
 
         {/* COPYRIGHT */}
 
-        <div className="mt-8 text-center text-gray-500 text-sm tracking-wide">
+        <div className="mt-6 sm:mt-8 text-center text-gray-500 text-xs sm:text-sm tracking-wide">
 
           © {new Date().getFullYear()} Team Ardra — Drones Decoded Ideathon
 

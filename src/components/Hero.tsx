@@ -12,17 +12,18 @@ export default function Hero() {
       {/* GRID */}
       <div className="absolute inset-0 opacity-[0.08] bg-[linear-gradient(to_right,#00ffff_1px,transparent_1px),linear-gradient(to_bottom,#00ffff_1px,transparent_1px)] bg-[size:80px_80px]" />
 
-      <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-20 items-center w-full">
+      <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 lg:gap-20 items-center w-full">
 
         {/* LEFT SIDE */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
+          className="text-center lg:text-left"
         >
-          
+
           {/* TITLE */}
-          <h1 className="font-orbitron text-[64px] md:text-[88px] leading-[0.95] tracking-[0.15em] font-bold">
+          <h1 className="font-orbitron text-[46px] sm:text-[58px] md:text-[72px] lg:text-[88px] leading-[0.95] tracking-[0.12em] lg:tracking-[0.15em] font-bold">
 
             <span className="block text-white">
               DRONES
@@ -35,14 +36,14 @@ export default function Hero() {
           </h1>
 
           {/* SUBTITLE */}
-          <p className="mt-6 text-gray-400 text-lg max-w-xl leading-relaxed">
+          <p className="mt-6 text-gray-400 text-base md:text-lg max-w-xl leading-relaxed mx-auto lg:mx-0">
             An innovation ideathon exploring how autonomous drones
             can transform sustainability, disaster response,
             and environmental intelligence.
           </p>
 
           {/* BUTTONS */}
-          <div className="flex gap-6 mt-10">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mt-10 justify-center lg:justify-start">
 
             <button
               onClick={() =>
@@ -72,17 +73,17 @@ export default function Hero() {
 
         {/* RIGHT SIDE */}
         <motion.div
-          className="relative flex justify-center"
+          className="relative flex justify-center mt-16 lg:mt-0"
           initial={{ opacity: 0, x: 80 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1 }}
         >
 
           {/* HALO */}
-          <div className="absolute w-[420px] h-[420px] rounded-full bg-cyan-500 blur-[140px] opacity-20" />
+          <div className="absolute w-[260px] h-[260px] md:w-[340px] md:h-[340px] lg:w-[420px] lg:h-[420px] rounded-full bg-cyan-500 blur-[120px] lg:blur-[140px] opacity-20" />
 
           {/* ORBIT RING */}
-          <div className="absolute w-[380px] h-[380px] border border-cyan-400/20 rounded-full animate-[spin_20s_linear_infinite]" />
+          <div className="absolute w-[220px] h-[220px] md:w-[300px] md:h-[300px] lg:w-[380px] lg:h-[380px] border border-cyan-400/20 rounded-full animate-[spin_20s_linear_infinite]" />
 
           {/* FLOATING DRONE */}
           <motion.div
@@ -94,7 +95,7 @@ export default function Hero() {
               alt="Drone"
               width={420}
               height={420}
-              className="relative z-10 drop-shadow-[0_0_30px_rgba(0,255,255,0.3)]"
+              className="w-[220px] md:w-[320px] lg:w-[420px] h-auto relative z-10 drop-shadow-[0_0_30px_rgba(0,255,255,0.3)]"
             />
           </motion.div>
 

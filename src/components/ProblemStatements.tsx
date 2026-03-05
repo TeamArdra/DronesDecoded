@@ -30,7 +30,7 @@ export default function ProblemStatements() {
           variants={fadeUp}
           className="text-center mb-20 sm:mb-24 lg:mb-28"
         >
-         <h2 className="text-[34px] xs:text-[38px] sm:text-[48px] md:text-[56px] lg:text-[70px] font-bold tracking-[0.06em] sm:tracking-[0.1em] lg:tracking-[0.15em]">
+         <h2 className="text-[34px] xs:text-[38px] sm:text-[48px] md:text-[56px] lg:text-[70px] font-bold tracking-[0.06em] sm:tracking-[0.06em] lg:tracking-[0.15em]">
 
             PROBLEM
 
